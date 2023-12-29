@@ -1,3 +1,4 @@
+
 # Simple AI Chat Application
 AI chat application interface as frontend built with React and a backend service using Nest.js.
 
@@ -8,20 +9,20 @@ Clone this Project
 
 Run npm install in both folders to install all their dependencies
 
-Start both servers(Client and Server)
+Start both servers(Frontend and Backend)
 
 # Set Up Frontend 
 # Install dependies as follows 
-npx create-react-app ai-chat-frontend --template typescript
-cd ai-chat-frontend
-npm install axios
+1.npx create-react-app ai-chat-frontend --template typescript
+2.cd ai-chat-frontend
+3.npm install axios
 
-# Set Up Frontend 
+# Set Up Backend 
 # Install dependies as follows 
-npm install -g @nestjs/cli
-nest new ai-chat-backend
-cd ai-chat-backend
-npm install
+1.npm install -g @nestjs/cli
+2.nest new ai-chat-backend
+3.cd ai-chat-backend
+4.npm install
 
 # Integration
 Connect the frontend and backend 
